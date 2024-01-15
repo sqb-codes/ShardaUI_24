@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Form Handling</h1>
+
+    <!-- Login, Register, MCQ, Search, Order, Upload, Post, Comment -->
+    
+    <!-- method - get and post -->
+    <form action="#" method="get">
+        <table>
+            <tr>
+                <td>
+                    <label for="u_name">Enter your name</label>
+                </td>
+                <td>
+                    <input type="text" name="username" id="u_name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="u_email">Enter your email</label>
+                </td>
+                <td>
+                    <input type="text" name="usermail" id="u_email">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter your password</td>
+                <td>
+                    <input type="password" name="userpwd">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Enter your course</td>
+                <td>
+                    <input type="checkbox" id="mca" value="MCA"> 
+                    <label for="mca">MCA</label>
+
+                    <input type="checkbox" id="bca" value="BCA"> 
+                    <label for="bca">BCA</label>
+
+                    <input type="checkbox" id="btech" value="Btech"> 
+                    <label for="btech">Btech</label>
+
+                    <input type="checkbox" id="mtech" value="Mtech"> 
+                    <label for="mtech">Mtech</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Select Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="m"> Male
+                    <input type="radio" name="gender" value="f"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Select Country</td>
+                <td>
+                    <select name="country" id="">
+                        <option>Select Country</option>
+                        <option value="in">India</option>
+                        <option value="ch">China</option>
+                        <option value="us">USA</option>
+                        <option value="ca">Canada</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Choose file</td>
+                <td>
+                    <input type="file" name="file">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>

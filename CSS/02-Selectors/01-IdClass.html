@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #recommended {
+            background-color: lightgray;
+        }
+        #recent {
+            background-color: lightgoldenrodyellow;
+        }
+        #recommended, 
+        #recent {
+            padding: 20px;
+        }
+        .common {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
+        }
+        .title {
+            color: red;
+        }
+        .product-heading {
+            color: green;
+            font-size: 22px;
+        }
+        .product {
+            background-color: white;
+            width: 10%;
+            margin-bottom: 15px;
+            padding: 20px;
+        }
+        /* Nested Selector */
+        .product img {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Selectors</h1>
+
+    <!-- ID - identity
+    - unique
+    - represented by #
+    - one tag can have only 1 ID
+    - 1 ID cannot be repeated -->
+
+    <!-- Class - grouping
+    - group similar elements
+    - represented by .
+    - one tag can have multiple class
+    - one class can be used any number of times -->
+
+    <div id="recommended">
+        <h2 class="title common">Recommended Products</h2>
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/41-2m5Oyv5L._AC_SY200_.jpg" alt="">
+            <h4 class="product-heading common">Product_1</h4>
+            <p>Price : 4500 Rs</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/41kPiVffGhL._AC_SY200_.jpg" alt="">
+            <h4 class="product-heading common">Product_1</h4>
+            <p>Price : 4500 Rs</p>
+            <button>Add to cart</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="recent">
+        <h2 class="title">Recent Products</h2>
+        <div class="product">
+            <h4>Product_1</h4>
+            <p>Price : 4500 Rs</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="product">
+            <h4>Product_1</h4>
+            <p>Price : 4500 Rs</p>
+            <button>Add to cart</button>
+        </div>
+    </div>
+    
+</body>
+</html>
