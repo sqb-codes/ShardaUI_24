@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    /* font-size: 32px; */
+    /* 1em = 16px */
+    /* font-size: 2em; */
+
+    font-size: 3em;
+    /* font-family: 'Roboto Slab', serif; */
+    text-align: center;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    text-decoration: line-through;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+p {
+    /* font-variant: small-caps; */
+    /* font-style: italic; */
+    text-indent: 50px;
+}
+p::first-letter {
+    font-size: 3em;
+}
+p::first-line {
+    color: red;
+}
+
+ul .fb a {
+    color: #3b5998;
+}
+
+ul .tw a {
+    color: #1da1f2;
+}
+
+ul .yt a {
+    color: #ff0000;
+}
+
+ul .lin a {
+    color: #0a66c2;
+}
+
+ul .ins a {
+    color: #c32aa3;
+}
+
+ul .wp a {
+    color: #25d366;
+}

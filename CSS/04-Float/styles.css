@@ -1,0 +1,26 @@
+/* Pseudo Element */
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    
+}
+
+.col-1 {
+    /* background-color: lightcoral; */
+    width: 30%;
+    float: left;
+}
+.col-2 {
+    /* background-color: aqua; */
+    width: 30%;
+    /* float: right; */
+    float: left;
+}
+
+#parent {
+    background-color: lightgray;
+}

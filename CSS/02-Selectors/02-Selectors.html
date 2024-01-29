@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+        #main-nav > ul > li > a {
+            color: red;
+        }
+
+        #main-nav > ul > li:first-child > a {
+            color: black;
+        }
+
+        #main-nav > ul > li:last-child > a {
+            color: blueviolet;
+        }
+
+        #main-nav > ul > li:nth-child(3) > a {
+            color: brown;
+            text-decoration: underline;
+        }
+
+        #parent > h2 {
+            color: blue;
+        }
+        /* #parent + h3 {
+            color: green;
+        } */
+        #parent ~ h3 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Selectors</h1>
+
+    <div id="parent">
+        <h2>This heading is child of parent div</h2>
+        <div class="child">
+            <h2>This heading is grand child of parent div</h2>
+        </div>
+        <h2>This heading is child of parent div</h2>
+    </div>
+
+    <h3>This is a heading</h3>
+    <h3>This is a heading</h3>
+
+    <div id="main-nav">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Men</a>
+            </li>
+            <li>
+                <a href="#">Women</a>
+            </li>
+            <li>
+                <a href="#">Kids</a>
+                <ul>
+                    <li>
+                        <a href="#">Shoes</a>
+                    </li>
+                    <li>
+                        <a href="#">Clothes</a>
+                    </li>
+                    <li>
+                        <a href="#">Toys</a>
+                    </li>
+                    <li>
+                        <a href="#">More</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Books</a>
+                <ul>
+                    <li>
+                        <a href="#">Science</a>
+                    </li>
+                    <li>
+                        <a href="#">Sports</a>
+                    </li>
+                    <li>
+                        <a href="#">Education</a>
+                    </li>
+                    <li>
+                        <a href="#">Politics</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Furniture</a>
+            </li>
+        </ul>
+    </div>
+
+    <h3>This is another heading</h3>
+    
+</body>
+</html>
