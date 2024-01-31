@@ -1,0 +1,130 @@
+/* Global Settings */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Pacifico', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Helper Classes */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+/* Clearfix */
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+body {
+    /* width: 50%; */
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+/* Header */
+#header {
+    background-color: #028062;
+    padding: 25px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    /* bottom: 0px; */
+    /* right: 0px; */
+}
+#header h1 {
+    color: #fff;
+    font-family: 'Workbench', sans-serif;
+}
+
+
+/* Main Navigation */
+#main-navigation {
+    margin-top: 120px;
+}
+#main-navigation > .container > ul > li {
+    display: inline-block;
+    width: 14%;
+    text-align: center;
+    background-color: lightgreen;
+    padding: 15px 0px;
+    font-size: 24px;
+    position: relative;
+}
+
+#main-navigation .dropdown {
+    position: absolute;
+    background-color: lightsalmon;
+    width: 100%;
+    z-index: 5;
+    display: none;
+}
+#main-navigation ul li:hover .dropdown {
+    display: block;
+}
+
+
+#content {
+    margin-top: 100px;
+}
+
+#main > div {
+    position: relative;
+}
+
+#main .desc {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    left: 0;
+    top: 45%;
+    opacity: 0.6;
+}
+#main .desc h3 {
+    font-size: 4em;
+    color: #fff;
+}
+
+#sidebar_1 {
+    width: 20%;
+    padding: 15px;
+    background-color: #e1e1e1;
+}
+
+#main {
+    width: 50%;
+    padding: 15px;
+    background-color: #e1e1e1;
+    margin-left: 2.5%;
+}
+
+#sidebar_2 {
+    width: 20%;
+    padding: 15px;
+    background-color: #e1e1e1;
+}
+
+/* Footer */
