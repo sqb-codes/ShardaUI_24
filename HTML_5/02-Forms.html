@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        textarea {
+            resize: none;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
 </head>
 <body>
 
@@ -53,6 +60,52 @@
                     <input type="week">
                 </td>
             </tr>
+            <!-- <tr>
+                <td>Enter Card Number</td>
+                <td>
+                    <input type="text" placeholder="Enter Card Number" pattern="[0-9]{4}[a-z|A-Z]{3,6}[!|@|#|$|%|^|&|*]{1}" title="Requested format is : 4 digits then 3 to 6 alphabets and then any 1 special character">
+                </td>
+            </tr> -->
+
+            <tr>
+                <td>Search Here</td>
+                <td>
+                    <input type="search" placeholder="Search here....">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Select Range</td>
+                <td>
+                    <input type="range" value="0" step="50" max="1000" 
+                    onchange="op.value=value">
+                </td>
+                <td>
+                    <output id="op">0</output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Your Progress</td>
+                <td>
+                    <progress value="25" max="100"></progress>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Enter phone number</td>
+                <td>
+                    <input type="tel" placeholder="Enter your phone number">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Enter your comments</td>
+                <td>
+                    <textarea cols="0" rows="0" placeholder="Enter your comments"></textarea>
+                </td>
+            </tr>
+
             <tr>
                 <td></td>
                 <td>
