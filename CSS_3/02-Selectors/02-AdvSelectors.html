@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            transition-duration: 2s;
+        }
+        input[value="hide"]:checked ~ img{
+            /* display: none; */
+            opacity: 0;
+            /* visibility: hidden; */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Advanced Selectors</h1>
+
+    <input type="radio" id="show" value="show" name="toggle">
+    <label for="show">Show Image</label>
+
+    <input type="radio" id="hide" value="hide" name="toggle">
+    <label for="hide">Hide Image</label>
+
+    <hr>
+
+    <img src="../../../images/hulk-bigpunch.gif" alt="">
+
+    <hr>
+    
+</body>
+</html>

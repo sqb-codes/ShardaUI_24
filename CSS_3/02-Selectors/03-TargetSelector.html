@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #login {
+            display: none;
+        }
+        #login:target {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Target Selector</h1>
+
+    <a href="#login">Login Form</a>
+
+    <section id="login">
+        <a href="#">Close</a>
+        <form action="#">
+            <table>
+                <tr>
+                    <td>Enter email</td>
+                    <td>
+                        <input type="email" name="usermail" id="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter password</td>
+                    <td>
+                        <input type="password" name="userpwd" id="pwd">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="reset">
+                    </td>
+                    <td>
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    
+</body>
+</html>
