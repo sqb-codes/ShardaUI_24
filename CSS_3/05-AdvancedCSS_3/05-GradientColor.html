@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: calc(100vh - 220px);
+            overflow: hidden;
+            position: relative;
+            border: 2px solid red;
+            /* background-color: lavender; */
+            /* background: linear-gradient(red, green,blue,yellow); */
+            /* background: linear-gradient(90deg, red 10%, yellow 90%); */
+            /* background: linear-gradient(orange, white, green); */
+        }
+        div:after {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0px;
+            /* top: 0px; */
+            bottom: 0px;
+            /* background-color: red; */
+            background: linear-gradient(0deg, rgb(33, 39, 52) 0.37%, rgba(15, 35, 90, 0) 102.59%);
+        }
+        img {
+            width: 100%;
+        }
+        p::after {
+            content: "Read More...";
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Gradient Color</h1>
+
+    <!-- <div></div> -->
+
+    <div>
+        <img src="https://brightcoveimagecompression.s3.ap-south-1.amazonaws.com/output/input/6347618163112-1709436329.jpg" alt="">
+    </div>
+    
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti et voluptatum placeat blanditiis inventore officia modi omnis, facilis harum praesentium numquam quasi iusto doloremque suscipit veritatis expedita veniam possimus totam!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti et voluptatum placeat blanditiis inventore officia modi omnis, facilis harum praesentium numquam quasi iusto doloremque suscipit veritatis expedita veniam possimus totam!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti et voluptatum placeat blanditiis inventore officia modi omnis, facilis harum praesentium numquam quasi iusto doloremque suscipit veritatis expedita veniam possimus totam!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti et voluptatum placeat blanditiis inventore officia modi omnis, facilis harum praesentium numquam quasi iusto doloremque suscipit veritatis expedita veniam possimus totam!
+    </p>
+
+</body>
+</html>

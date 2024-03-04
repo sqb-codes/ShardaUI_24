@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .col {
+            box-sizing: border-box;
+            display: inline-block;
+            width: 30%;
+            border: 1px solid red;
+            margin: 0px 30px;
+            transition-duration: 2s;
+            /* x y blur spread color */
+            /* box-shadow: 10px 10px 20px 0px rgb(0, 0, 0); */
+            /* box-shadow: 8px 19px 20px 0px rgb(91 44 44); */
+        }
+        .col img {
+            height: 400px;
+            width: 100%;
+        }
+        .col:hover {
+            box-shadow: 8px 19px 20px 0px rgb(91 44 44);
+        }
+        h1 {
+            text-shadow: 0px 0px 3px red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Shadow</h1>
+
+    <div class="col">
+        <h2>This is column_1</h2>
+        <img src="../../images/WebImages/awesome-wallpapers-6482-6759-hd-wallpapers.jpg" alt="">
+    </div>
+    <div class="col">
+        <h2>This is column_2</h2>
+        <img src="../../images/WebImages/thor-the-dark-world-5a.jpg" alt="">
+    </div>
+    <div class="col">
+        <h2>This is column_3</h2>
+        <img src="../../images/WebImages/thor-chris-hemsworth.jpg" alt="">
+    </div>
+    
+</body>
+</html>

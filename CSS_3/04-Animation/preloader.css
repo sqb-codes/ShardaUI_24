@@ -1,0 +1,46 @@
+#loader {
+    height: 700px;
+    width: 700px;
+    margin: 0 auto;
+    border: 50px double red;
+    border-radius: 50%;
+    position: relative;
+}
+
+.car {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("car.png");
+    background-size: 30% 20%;
+    background-repeat: no-repeat;
+    animation: car-anim 10s infinite linear;
+}
+
+@keyframes car-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.progress-bar {
+    position: absolute;
+    height: 100px;
+    width: 0%;
+    top: 40%;
+    left: 10%;
+    background-color: red;
+    animation: progress-bar 10s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes progress-bar {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}

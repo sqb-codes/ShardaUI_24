@@ -1,0 +1,27 @@
+#banner {
+    height: 600px;
+    background-image: url("../../images/WebImages/batman_arkham_knight-1366x768.jpg");
+    background-size: 100% 100%;
+    animation: slideshow 10s infinite linear;
+}
+
+@keyframes slideshow {
+    0%, 18% {
+        background-image: url("../../images/WebImages/batman_arkham_knight-1366x768.jpg");
+    }
+    20%, 38% {
+        background-image: url("../../images/WebImages/chris_hemsworth__angry_thor.jpg");
+    }
+    40%, 58% {
+        background-image: url("../../images/WebImages/the-joker-black-white.jpeg");
+    }
+    60%, 78% {
+        background-image: url("../../images/WebImages/Terminator002.jpg");
+    }
+    80%,98% {
+        background-image: url("../../images/WebImages/Iron-Man-3-2013-Wallpaper.jpg");
+    }
+    100% {
+        background-image: url("../../images/WebImages/batman_arkham_knight-1366x768.jpg");
+    }
+}
