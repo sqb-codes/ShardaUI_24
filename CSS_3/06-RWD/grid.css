@@ -1,0 +1,26 @@
+.row {
+    display: grid;
+    gap: 10px;
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    grid-template-columns: repeat(25%, 4);
+}
+
+.col {
+    background-color: lightgray;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.col-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.col-4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.col-5 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
